@@ -14,7 +14,6 @@ const Chat = () => {
     dispatch(getChat());
   }, [dispatch]);
 
-  console.log(chat);
   return (
     <ListGroup>
       {Object.entries(chat).map(message => (
